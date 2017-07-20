@@ -21,10 +21,6 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- bxSlider Javascript file -->
-    <script src="js/jquery.bxslider.min.js"></script>
     <!-- bxSlider CSS file -->
     <link href="js/jquery.bxslider.css" rel="stylesheet" />
 
@@ -62,7 +58,7 @@
                     </li>
                     <li class="page-scroll">
                         <a href="#services">Services</a>
-                    </li>                    
+                    </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Product</a>
                     </li>
@@ -88,6 +84,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
+                    <ul class="bxslider">
+                      <li><img src="/images/pic1.jpg" /></li>
+                      <li><img src="/images/pic2.jpg" /></li>
+                      <li><img src="/images/pic3.jpg" /></li>
+                      <li><img src="/images/pic4.jpg" /></li>
+                    </ul>
                     <div class="intro-text">
                         <h4 class="name">Software Construction company with a difference
 </h4>
@@ -101,7 +103,7 @@
             </div>
         </div>
     </header>
-    
+
     <!-- Section Grid Section -->
     <section id="services">
         <div class="container">
@@ -110,7 +112,7 @@
                     <h2>Our Services</h2>
                     <hr class="star-primary">
                 </div>
-            </div>        
+            </div>
             <ul class="list-group">
               <li class="list-group-item">Develoment of Enterprise web based applications (for Government Agencies, Private Sectors, Non Profit Organizations and other institutions)</li>
               <li class="list-group-item">E-Commerce web applications</li>
@@ -123,7 +125,7 @@
               <li class="list-group-item">Software Development Process and Tools</li>
             </ul>
           </div>
-    </section>    
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -248,8 +250,8 @@
                   <hr class="star-light">
               </div>
           </div>
-          
-          
+
+
           <ul class="bxslider">
             <li><img style="width: 140px; height: 140px;" src="img/team/hisham.jpg" title="Ahmad Hisham bin Mohd. Khir (Managing Director/System Designer)" /></li>
             <li><img style="width: 140px; height: 140px;" src="img/team/fikri.png" title="Mohd Nurfikri bin Abdul Ghani (Chief Technology Officer)" /></li>
@@ -259,7 +261,7 @@
             <li><img style="width: 140px; height: 140px;" src="img/team/hajar.png" title="Siti Hajar bin Salleh Sr. Software Engineer" /></li>
             <li><img style="width: 140px; height: 140px;" src="img/team/shahril.jpg" title="Mohd Shahril Redza Abdul Aziz Sr. Software Engineer" /></li>
           </ul>
-          
+
           <script>
           $(document).ready(function(){
             $('.bxslider').bxSlider({
@@ -267,8 +269,8 @@
               captions: true
             });
           });
-          </script>          
-          
+          </script>
+
       </div>
     </section>
 
@@ -656,6 +658,14 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
+    <script src="js/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.bxslider').bxSlider();
+      });
+    </script>
 
 </body>
 

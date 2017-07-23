@@ -84,12 +84,6 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
-                    <ul class="bxslider">
-                      <li><img src="/images/pic1.jpg" /></li>
-                      <li><img src="/images/pic2.jpg" /></li>
-                      <li><img src="/images/pic3.jpg" /></li>
-                      <li><img src="/images/pic4.jpg" /></li>
-                    </ul>
                     <div class="intro-text">
                         <h4 class="name">Software Construction company with a difference
 </h4>
@@ -99,6 +93,22 @@
                       because we never compromise on quality & innovation in our designs & end products, that go beyond customer expectations. Each customer is unique and only when we get deep into the root of their problems we can craft the right solutions. Delivering a system means nothing when your problems are not solved & your objectives are not met. It takes more than an ordinary Software House to do that. But it's something that we do on regular basis-- on time.
 </span>
                     </div>
+                    <hr class="star-light">
+                    <ul class="bxslider">
+                      <li><img src="img/photos/system_presentation.jpeg" /></li>
+                      <li><img src="img/photos/req_workshop.jpg" /></li>
+                      <!-- li><img src="img/photos/project1_outside.jpg" /></li -->
+                      <li><img src="img/photos/IMG-20160218-WA0010.jpg" /></li>
+                      <li><img src="img/photos/IMG-20160329-WA0002.jpg" /></li>
+                      <li><img src="img/photos/IMG-20160307-WA0010.jpg" /></li>                      
+                      <li><img src="img/photos/prodata_closure.jpeg" /></li>
+                      <li><img src="img/photos/IMG-20160314-WA0057.jpg" /></li>
+                      <li><img src="img/photos/IMG-20160215-WA0002.jpg" /></li> 
+                      <li><img src="img/photos/IMG-20160218-WA0009.jpg" /></li> 
+                      <li><img src="img/photos/farewell.jpg"/></li> 
+                      <li><img src="img/photos/kuala_selangor_mar17.jpeg" /></li>                      
+                      <li><img src="img/photos/petronas_discussion.jpeg"/></li>                
+                    </ul>                    
                 </div>
             </div>
         </div>
@@ -663,7 +673,13 @@
 
     <script>
       $(document).ready(function(){
-        $('.bxslider').bxSlider();
+        $('.bxslider').bxSlider({
+            captions: true,
+            auto: true,
+            autoControls: true,
+            adaptiveHeight: true,
+            mode: 'fade'
+        });
       });
     </script>
 

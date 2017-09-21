@@ -3,8 +3,19 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ @font-face {
+   font-family:"WeblySleek UI Normal";
+   src:url("../fonts/WeblySleek_UI_Normal.eot?") format("eot"),
+   url("../fonts/WeblySleek_UI_Normal.woff") format("woff"),
+   url("../fonts/WeblySleek_UI_Normal.ttf") format("truetype"),
+   url("../fonts/WeblySleek_UI_Normal.svg#WeblySleekUINormal") format("svg");
+   font-weight:normal;
+   font-style:normal;
+ }
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'WeblySleek UI Normal', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 p {
